@@ -25,5 +25,10 @@ public class TypesAndVariables {
         
         myVariable = myVariable + 1;
         System.out.println(myVariable);
+        
+        //---
+        
+        int myVar2 = 7;
+        System.out.println(myVariable + myVar2);
     }
 }
