@@ -36,6 +36,8 @@ public class TypesAndVariables {
         double x = 2.5;
         System.out.println(x);
         
+        //---
+        
         String hello = "Hello World!";
     }
 }
