@@ -26,8 +26,6 @@ public class TypesAndVariables {
         myVariable = myVariable + 1;
         System.out.println(myVariable);
         
-        //---
-        
         int myVar2 = 7;
         // declaring and initialising in one step
         
@@ -37,5 +35,7 @@ public class TypesAndVariables {
         
         double x = 2.5;
         System.out.println(x);
+        
+        String hello = "Hello World!";
     }
 }
