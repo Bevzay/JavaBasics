@@ -32,5 +32,10 @@ public class TypesAndVariables {
         // declaring and initialising in one step
         
         System.out.println(myVariable + myVar2);
+        
+        //---
+        
+        double x = 2.5;
+        System.out.println(x);
     }
 }
