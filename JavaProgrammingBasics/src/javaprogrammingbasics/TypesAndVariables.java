@@ -29,6 +29,8 @@ public class TypesAndVariables {
         //---
         
         int myVar2 = 7;
+        // declaring and initialising in one step
+        
         System.out.println(myVariable + myVar2);
     }
 }
