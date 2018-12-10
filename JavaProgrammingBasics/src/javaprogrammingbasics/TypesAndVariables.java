@@ -38,6 +38,9 @@ public class TypesAndVariables {
         
         //---
         
-        String hello = "Hello World!";
+        String hello = "Hello, ";
+        String name = "Charlie";
+        System.out.println(hello + name);
+        // String concatenation
     }
 }
