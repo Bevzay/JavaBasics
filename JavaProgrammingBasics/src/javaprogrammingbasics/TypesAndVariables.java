@@ -25,5 +25,22 @@ public class TypesAndVariables {
         
         myVariable = myVariable + 1;
         System.out.println(myVariable);
+        
+        int myVar2 = 7;
+        // declaring and initialising in one step
+        
+        System.out.println(myVariable + myVar2);
+        
+        //---
+        
+        double x = 2.5;
+        System.out.println(x);
+        
+        //---
+        
+        String hello = "Hello, ";
+        String name = "Charlie";
+        System.out.println(hello + name);
+        // String concatenation
     }
 }
