@@ -21,6 +21,15 @@ public class Conditionals {
              System.out.println("Goodbye");
          }
          
+         // x = 5 sssign 5 to x
+         // x == 5 test wehther x has the value 5 (either true or false)
          
+         if(true && true) {
+             System.out.println("AND executed");
+         }
+         
+         if(true || false) {
+             System.out.println("OR executed");
+         }
      }
 }
