@@ -14,9 +14,12 @@ public class Conditionals {
      public static void main(String[] args) {
          
          boolean sayHello = false;
+         boolean sayHey = false;
          
          if(sayHello) {
             System.out.println("Hello");
+         } else if(sayHey) {
+             System.out.println("Hey");
          } else {
              System.out.println("Goodbye");
          }
@@ -29,6 +32,17 @@ public class Conditionals {
          }
          
          if(true || false) {
+             System.out.println("OR executed");
+         }
+         
+         int playerX = 50;
+         
+         /*
+         * if our player is past the left of the screen,
+         * or if our player is pas the right side of the screen
+         */
+         if(playerX < 0 || playerX > 500) {
+             // some code that reverses our player's direction
              System.out.println("OR executed");
          }
      }
